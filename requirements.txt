@@ -1,2 +1,8 @@
 # 런타임 의존성 (엔진이 도는 데 필요한 것).
-# 현재는 없음 — S2(데이터 취득)에서 yfinance 등을 추가한다.
+
+# --- S1: DB 연결 ---
+SQLAlchemy>=2
+psycopg[binary]>=3
+python-dotenv>=1
+
+# S2(데이터 취득)에서 yfinance 등을 추가한다.
