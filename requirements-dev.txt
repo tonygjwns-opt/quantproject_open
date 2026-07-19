@@ -1,0 +1,4 @@
+# 개발·검증 의존성. 런타임도 함께 설치되도록 아래 한 줄로 requirements.txt 를 포함한다.
+-r requirements.txt
+
+pytest>=8

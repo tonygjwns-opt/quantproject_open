@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portoptim"
+version = "0.0.0"
+description = "포트폴리오 최적화·백테스팅 퀀트 엔진 (공개)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+# 런타임 의존성은 requirements.txt 로 관리한다 (여기 두지 않음).
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

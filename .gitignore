@@ -1,0 +1,31 @@
+# --- 자격증명 · 비밀 ---
+.env
+.env.*
+!.env.example
+
+# --- 파이썬 ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- 가상환경 ---
+.venv/
+venv/
+
+# --- 테스트 · 캐시 ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- 데이터 캐시 (엔진 산출물 · 원천 데이터는 커밋 안 함) ---
+data/
+*.parquet
+*.duckdb
+
+# --- OS · 에디터 ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
